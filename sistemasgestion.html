@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Jurídico Gascón</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="json/manifest.json">
+    <meta name="theme-color" content="#0056b3">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo/logo.png" alt="Logo Estudio Jurídico" class="app-logo">
+        <h1>Estudio Jurídico Gascón</h1>
+    </header>
+    <nav>
+        <button onclick="showSection('sistemasgestion')">Sistemas de Gestión Judicial</button>
+        <button onclick="abrir('index.html')">Volver</button>
+    </nav>
+    <main>
+        <section id="sistemasgestion" class="content-section">
+            <h2>Sistemas de Gestión Judicial</h2>
+            <button onclick="abrirNuevaVentana('https://portalpjn.pjn.gov.ar/')">Portal PJN</button>
+            <button onclick="abrirNuevaVentana('https://mev.scba.gov.ar/loguin.asp')">MEV SCBA</button>
+			<button onclick="abrirNuevaVentana('https://notificaciones.scba.gov.ar/')">Notificaciones y presentaciones SCBA</button>
+            <button onclick="abrirNuevaVentana('https://eje.juscaba.gob.ar/auth/realms/IOL-CABA/protocol/openid-connect/auth?client_id=iol-ui&redirect_uri=https%3A%2F%2Feje.juscaba.gob.ar%2Fiol-ui%2Fu%2Finicio&state=4bfcfe4c-da40-40d4-9b16-1b7ca9431955&nonce=ce44e44f-5a2d-426e-8968-31746480acc2&response_mode=fragment&response_type=code&scope=openid')">EJE Juscaba</button>
+			<button onclick="abrirNuevaVentana('https://mv.mpba.gov.ar/web/Account/LoginAbogado?ReturnUrl=%2Fweb%2FHome%2FIndex')">SIMP MPBA</button>
+            <button onclick="abrirNuevaVentana('https://servicios.csjn.gov.ar/ConsultaCausasColectivas/')">Registro de procesos colectivos CSJN</button>
+			<button onclick="abrirNuevaVentana('https://rpc.scba.gov.ar/BuscarCausas.aspx')">Registro de procesos de incidencia colectiva SCBA</button>
+			<button onclick="abrirNuevaVentana('https://consejo.jusbaires.gob.ar/institucional/jurisdiccion/fuero-contencioso-administrativo-y-tributario/registro-de-procesos-colectivos/')">Registro de procesos colectivos cont adm CABA</button>
+			<button onclick="abrirNuevaVentana('https://rju.scba.gov.ar/')">Registro de juicios universales SCBA</button>
+        </section>
 
+    </main>
+</body>
+</html>
