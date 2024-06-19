@@ -69,8 +69,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 	// Función para abrir página web interna en la misma ventana
-	function window.abrir(url) {
-  window.open(url, 'titlebar=no');
+	window.abrir = function(url) {
+  open(url, 'titlebar=no');
 }
 
 	// Función para abrir página web externa en una ventana nueva
