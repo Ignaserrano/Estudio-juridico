@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Jurídico Gascón</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="json/manifest.json">
+    <meta name="theme-color" content="#0056b3">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo/logo.png" alt="Logo Estudio Jurídico" class="app-logo">
+        <h1>Estudio Jurídico Gascón</h1>
+    </header>
+    <nav>
+        <button onclick="abrir('sistemasgestion')">Sistemas de Gestión Judicial</button>
+        <button onclick="abrir('index.html')">Volver</button>
+    </nav>
+    <main>
 
+		<section id="laboral" class="content-section" style="display:none;">
+            <h2>Derecho Laboral</h2>
+            <button onclick="abrirNuevaVentana('https://www.srt.gob.ar/arg/historial.php')">Historial de contratos ART</button>
+            <button onclick="abrirNuevaVentana('https://cct.trabajo.gob.ar/Home/Filtro')">Buscador de convenios colectivos</button>
+			<button onclick="abrirNuevaVentana('https://www.correoargentino.com.ar/sites/default/files/tcl30web.pdf')">Formulario telegrama correo argentino</button>
+			<button onclick="abrirNuevaVentana('http://old.pjn.gov.ar/publico/demandas.pdf')">Ingreso de demandas PJN</button>
+			<button onclick="abrirNuevaVentana('http://old.pjn.gov.ar/publico/oj/TRABAJO.pdf')">Objetos Juicios fuero laboral PJN</button>
+            <button onclick="abrirNuevaVentana('http://old.pjn.gov.ar/publico/minutas/FORMULARIO.pdf')">Formulario ingresos de demandas fuero laboral PJN</button>
+			<button onclick="abrirNuevaVentana('https://www.scba.gov.ar/informacion/tablas/Fuero Laboral 2015.pdf')">Objetos juicio fuero laboral provincia</button>
+			<button onclick="abrirNuevaVentana('https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.scba.gov.ar%2Fdescargas%2FReceptoria%2FForm%2520Ingreso%2520Civil.xls&wdOrigin=BROWSELINK')">Formulario ingresos demandas laboral / civil provincia</button>
+			<button onclick="abrirNuevaVentana('https://login-ext.trabajo.gob.ar/Login.aspx')">SECLO</button>
+            <button onclick="abrirNuevaVentana('https://colproba.org.ar/liquidaciones/laborales/index.php')">Liquidaciones Laborales colproba</button>
+			<button onclick="abrirNuevaVentana('https://www.anses.gob.ar/consultas/obra-social-codem')">Consulta de CODEM</button>
+			<button onclick="abrirNuevaVentana('https://serviciosweb.afip.gob.ar/tramites_con_clave_fiscal/treb/app/indexBasica.aspx')">Consulta trabajo registrado</button>
+
+        </section>
+
+	    
+    </main>
+</body>
+</html>
