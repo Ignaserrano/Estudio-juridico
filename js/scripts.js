@@ -67,7 +67,12 @@ document.addEventListener('DOMContentLoaded', function() {
         });
         document.getElementById(sectionId).style.display = 'block';
     }
-	
+
+	// Función para abrir página web interna en la misma ventana
+	window.abrir = function(url) {
+  open(url, 'noopener,noreferrer');
+}
+
 	// Función para abrir página web externa en una ventana nueva
 	window.abrirNuevaVentana = function(url) {
   open(url, '_blank', 'noopener,noreferrer');
