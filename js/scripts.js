@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 
-function seleccionarSeccion(idSeccion) {
+function showSection(idSeccion) {
   // Ocultar todos los botones de sección
   var button = document.querySelectorAll('.boton-seccion');
   botones.forEach(function(button) {
