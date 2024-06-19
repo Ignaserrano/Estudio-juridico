@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	// Función para abrir página web interna en la misma ventana
 	window.abrir = function(url) {
-  open(url, 'noopener,noreferrer');
+  open(url, 'noopener,noreferrer', 'titlebar=no');
 }
 
 	// Función para abrir página web externa en una ventana nueva
@@ -79,35 +79,6 @@ document.addEventListener('DOMContentLoaded', function() {
 }
 
 
-function showSection(idSeccion) {
-  // Ocultar todos los botones de sección
-  var button = document.querySelectorAll('.boton-seccion');
-  botones.forEach(function(button) {
-    button.classList.add('hidden');
-  });
-
-  // Mostrar la sección correspondiente
-  var seccion = document.getElementById(idSeccion);
-  seccion.classList.remove('hidden');
-
-  // Crear y mostrar el botón "volver" si aún no existe
-  if (!document.getElementById('boton-volver')) {
-    var botonVolver = document.createElement('button');
-    botonVolver.id = 'boton-volver';
-    botonVolver.textContent = 'Volver';
-    botonVolver.onclick = function() {
-      // Mostrar todos los botones de sección
-      botones.forEach(function(button) {
-        button.classList.remove('hidden');
-      });
-      // Ocultar la sección actual
-      seccion.classList.add('hidden');
-      // Eliminar el botón "volver"
-      botonVolver.remove();
-    };
-    document.body.appendChild(botonVolver);
-  }
-}
 
 
     // Función para toggle de fechas de reuniones
