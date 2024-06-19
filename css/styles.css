@@ -77,6 +77,11 @@ h2 {
     color: #404045;
 }
 
+/* oculta botones no seleccionados */
+.hidden {
+  display: none;
+}
+
 /* Specific styles for buttons inside content sections */
 .content-section button {
     background-color: #404045;
