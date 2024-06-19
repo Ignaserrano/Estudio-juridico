@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Jurídico Gascón</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="json/manifest.json">
+    <meta name="theme-color" content="#0056b3">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo/logo.png" alt="Logo Estudio Jurídico" class="app-logo">
+        <h1>Estudio Jurídico Gascón</h1>
+    </header>
+    <nav>
+        <button onclick="abrir('sistemasgestion')">Sistemas de Gestión Judicial</button>
+        <button onclick="abrir('index.html')">Volver</button>
+    </nav>
+    <main>
+        <section id="bonosprov" class="content-section" style="display:none;">
+            <h2>Bonos Provincia de Buenos Aires</h2>
+            <button onclick="abrirNuevaVentana('https://servicios.cajaabogados.org.ar/')">Generación de jus previsional</button>
+            <button onclick="abrirNuevaVentana('https://colproba.org.ar/l/bonos-ley-8480-generacion-online/')">Generación de Bonos Ley 8480</button>
+			<button onclick="abrirNuevaVentana('https://tasadejusticia.scba.gov.ar/generarboleta.aspx?Tramite=1')">Pago Tasa de Justicia Provincia</button>
+			<button onclick="abrirNuevaVentana('https://servicios.cajaabogados.org.ar/')">Generación contribución sobre tasa de justicia</button>
+        </section>
 
+
+	    
+    </main>
+</body>
+</html>
