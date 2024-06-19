@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Jurídico Gascón</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="json/manifest.json">
+    <meta name="theme-color" content="#0056b3">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo/logo.png" alt="Logo Estudio Jurídico" class="app-logo">
+        <h1>Estudio Jurídico Gascón</h1>
+    </header>
+    <nav>
+        <button onclick="abrir('sistemasgestion')">Sistemas de Gestión Judicial</button>
+        <button onclick="abrir('index.html')">Volver</button>
+    </nav>
+    <main>
 
+		        <section id="persjur" class="content-section" style="display:none;">
+            <h2>Información y gestión personas jurídicas</h2>
+            <button onclick="abrirNuevaVentana('https://www.argentina.gob.ar/justicia/igj')">Inspección General de Justicia</button>
+            <button onclick="abrirNuevaVentana('https://www.argentina.gob.ar/justicia/registro-nacional-sociedades')">Registro nacional de sociedades</button>
+			<button onclick="abrirNuevaVentana('https://www.gba.gob.ar/dppj')">Dirección Personas Jurídicas Provincia de Bs. As.</button>
+			<button onclick="abrirNuevaVentana('https://www.argentina.gob.ar/inpi')">Instituto Nacional de la propiedad industrial (marcas y patentes)</button>
+			<button onclick="abrirNuevaVentana('https://registrodomicilioselectronicos.scba.gov.ar/listados.aspx')">Registro de domicilios electrónicos</button>
+			<button onclick="abrirNuevaVentana('https://www.nosis.com/es')">Nosis</button>
+            <button onclick="abrirNuevaVentana('https://www.bcra.gob.ar/BCRAyVos/Situacion_Crediticia.asp')">Central de deudores BCRA</button>
+			<button onclick="abrirNuevaVentana('https://web.arba.gov.ar/sellos')">Impuesto sellos y ITGB ARBA</button>
+			<button onclick="abrirNuevaVentana('https://web.arba.gov.ar/sellos')">Nic.ar (nombres de dominio paginas web)</button>
+        </section>
+
+	    
+    </main>
+</body>
+</html>
