@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudio Jurídico Gascón</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="manifest" href="json/manifest.json">
+    <meta name="theme-color" content="#0056b3">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/logo/logo.png" alt="Logo Estudio Jurídico" class="app-logo">
+        <h1>Estudio Jurídico Gascón</h1>
+    </header>
+    <nav>
+        <button onclick="abrir('sistemasgestion')">Sistemas de Gestión Judicial</button>
+        <button onclick="abrir('index.html')">Volver</button>
+    </nav>
+    <main>
 
+        <section id="persfis" class="content-section" style="display:none;">
+            <h2>Información y gestión personas físicas</h2>
+            <button onclick="abrirNuevaVentana('https://rdam.mjus.gba.gob.ar/')">Libre deuda registro deudores alimentarios (provincia)</button>
+            <button onclick="abrirNuevaVentana('https://www.colescba.org.ar/portal/tramites/registro-de-testamentos')">Trámites ante el registro de testamentos Colegio Escribanos Pcia de Bs. As.</button>
+			<button onclick="abrirNuevaVentana('https://numeracion.enacom.gob.ar/')">Buscador de prestadores ENACOM</button>
+			<button onclick="abrirNuevaVentana('https://www.ips.gba.gob.ar/web-ips/npConsultaNPBeneficio1.jsp')">Certificación negativa IPS</button>
+			<button onclick="abrirNuevaVentana('https://www.anses.gob.ar/consultas/certificacion-negativa')">Certificación negativa ANSES</button>
+            <button onclick="abrirNuevaVentana('https://rju.scba.gov.ar/')">Registro de juicios universales</button>
+			<button onclick="abrirNuevaVentana('https://registrodomicilioselectronicos.scba.gov.ar/listados.aspx')">Registro de domicilios electrónicos</button>
+			<button onclick="abrirNuevaVentana('https://www.anses.gob.ar/consultas/obra-social-codem')">Consulta de CODEM</button>
+			<button onclick="abrirNuevaVentana('https://www.nosis.com/es')">Nosis</button>
+            <button onclick="abrirNuevaVentana('https://www.argentina.gob.ar/interior/renaper')">Renaper</button>
+			<button onclick="abrirNuevaVentana('https://www.electoral.gob.ar/nuevo/paginas/btn/tyf.php')">CNE</button>
+			<button onclick="abrirNuevaVentana('https://partidas.mgob.gba.gob.ar/publico/login')">Partidas provincia de Bs. As.</button>
+			<button onclick="abrirNuevaVentana('https://tramitesdigitales.buenosaires.gob.ar/formulario/formularioTemplate/solicitudPartida')">Partidas CABA</button>
+            <button onclick="abrirNuevaVentana('https://www.bcra.gob.ar/BCRAyVos/Situacion_Crediticia.asp')">Central de deudores BCRA</button>
+			<button onclick="abrirNuevaVentana('https://web.arba.gov.ar/sellos')">Impuesto sellos y ITGB ARBA</button>
+			<button onclick="abrirNuevaVentana('https://web.arba.gov.ar/sellos')">Nic.ar (nombres de dominio paginas web)</button>
+        </section>
+
+	    
+    </main>
+</body>
+</html>
