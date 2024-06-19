@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
     function showInstallPromotion() {
         // Show your custom install prompt here (e.g., a modal or banner)
         const installButton = document.createElement('button');
-        installButton.textContent = 'Install App';
+        installButton.textContent = 'Instalar App';
         installButton.style.position = 'fixed';
         installButton.style.bottom = '10px';
         installButton.style.left = '10px';
@@ -69,8 +69,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 	// Función para abrir página web interna en la misma ventana
-	window.abrir = function(url) {
-  open(url, 'noopener,noreferrer');
+	function window.abrir(url) {
+  window.open(url, 'titlebar=no');
 }
 
 	// Función para abrir página web externa en una ventana nueva
