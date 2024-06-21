@@ -3,8 +3,8 @@
   "short_name": "EJG",
   "start_url": "../index.html",
   "display": "standalone",
-  "scope": "../",
-  "background_color": "#000000",
+  "scope": "/Estudio-juridico/",
+  "background_color": "#fffedf",
   "theme_color": "#0056b3",
   "icons": [
     {
