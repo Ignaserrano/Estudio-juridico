@@ -3,7 +3,7 @@
   "short_name": "EJG",
   "start_url": "../index.html",
   "display": "standalone",
-  "scope": "/",
+  "scope": "../",
   "background_color": "#000000",
   "theme_color": "#0056b3",
   "icons": [
