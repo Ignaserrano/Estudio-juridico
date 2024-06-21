@@ -18,4 +18,32 @@
       "type": "image/png"
     }
   ]
+  "shortcuts": [
+  {
+    "name": "Google Calendar",
+    "short_name": "Calendar",
+    "description": "Abrir calendario",
+    "url": "http://calendar.google.com",
+    "icons": [
+      {
+        "src": "../images/icons/calendar.png",
+        "sizes": "192x192"
+      }
+    ]
+  }
+    "shortcuts": [
+  {
+    "name": "Google Keep",
+    "short_name": "Keep",
+    "description": "Abrir app de notas",
+    "url": "http://keep.google.com",
+    "icons": [
+      {
+        "src": "../images/icons/keep.png",
+        "sizes": "192x192"
+      }
+    ]
+  }
+]
+]
 }
