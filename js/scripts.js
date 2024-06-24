@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 	// Función para abrir página web interna en la misma ventana
 	window.abrir = function(url) {
-  open(url, 'noopener,noreferrer');
+  open(url, 'noopener,noreferrer', _self);
 }
 
 	// Función para abrir página web externa en una ventana nueva
